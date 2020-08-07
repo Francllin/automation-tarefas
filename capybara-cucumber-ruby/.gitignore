@@ -1,0 +1,16 @@
+/.bundle/
+/.yardoc
+/Gemfile.lock
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
+/log/ativacoes.txt
+/debug.log
+/log/
+/features/support/tmp/
+/exception_log.csv
+/reports/*.retry
+/bup.log

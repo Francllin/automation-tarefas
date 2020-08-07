@@ -1,0 +1,25 @@
+<% def timestamps
+  date = Time.now.strftime('%Y%m%d').to_s
+  time = Time.now.strftime('%H-%M-%S').to_s
+  "#{date}_#{time}"
+end %>
+
+<% RUN_TSTAMPs = timestamps.freeze %>
+
+# Template
+default: -p html_report -p json_report 
+
+# Reports
+html_report: --format pretty --format html --out=reports/features_report_<%= RUN_TSTAMPs %>.html
+json_report: --format pretty --format json --out=reports/features_report_<%= RUN_TSTAMPs %>.json
+
+# Environments ambiente massa de teste
+dev: ENVIRONMENT_TYPE=dev -p default
+uat: ENVIRONMENT_TYPE=uat -p default
+prd: ENVIRONMENT_TYPE=prd -p default
+
+headless_true: HEADLESS=true
+
+
+
+

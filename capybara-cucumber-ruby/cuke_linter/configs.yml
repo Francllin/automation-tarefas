@@ -1,0 +1,31 @@
+AllLinters:
+  Given:
+    - "Dado"
+  When:
+    - "Quando"
+  Then:
+    - "Então"
+
+StepWithTooManyCharactersLinter:
+  Enabled: false
+
+FeatureWithTooManyDifferentTagsLinter:
+  Enabled: false
+
+ElementWithTooManyTagsLinter:
+  Enabled: false
+
+TestWithBadNameLinter:
+  Enabled: false
+
+ExampleWithoutNameLinter:
+  Enabled: false
+
+TestWithTooManyStepsLinter:
+  StepThreshold: 15
+
+FeatureFileWithMismatchedNameLinter:
+  Enabled: false
+
+ElementWithCommonTagsLinter:
+  Enabled: false

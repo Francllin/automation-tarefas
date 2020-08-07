@@ -1,0 +1,439 @@
+[
+  {
+    "uri": "features/gherkins/completar_nova_tarefa.feature",
+    "id": "completar-uma-nova-tarefa",
+    "keyword": "Funcionalidade",
+    "name": "Completar uma Nova tarefa",
+    "description": "  Como uruário do site\n  Quero poder completar uma nova tarefa\n  De modo que possa finalizar mais uma atividade",
+    "line": 6,
+    "tags": [
+      {
+        "name": "@web",
+        "line": 4
+      },
+      {
+        "name": "@nova_tarefa",
+        "line": 5
+      }
+    ],
+    "comments": [
+      {
+        "value": "# encoding: utf-8",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "completar-uma-nova-tarefa;validar-completar-uma-nova-tarefa",
+        "keyword": "Cenário",
+        "name": "Validar completar uma nova tarefa",
+        "description": "",
+        "line": 15,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@web",
+            "line": 4
+          },
+          {
+            "name": "@nova_tarefa",
+            "line": 5
+          },
+          {
+            "name": "@#francllin_rios",
+            "line": 11
+          },
+          {
+            "name": "@%nova_tarefa",
+            "line": 12
+          },
+          {
+            "name": "@validar_completar_novo_tarefa",
+            "line": 13
+          },
+          {
+            "name": "@add_nova_tarefa",
+            "line": 14
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.33.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.33.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1285374000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "acessar a tela home principal",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/nova_tarefa_step.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 283500000
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "clicar no checkbox",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/completar_nova_tarefa_step.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 114425000
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "validar que a tafera foi finalizada com sucesso",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/completar_nova_tarefa_step.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 196539000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.33.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 92295000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "features/gherkins/nova_tarefa.feature",
+    "id": "nova-tarefa---cadastrar-uma-nova-tarefa",
+    "keyword": "Funcionalidade",
+    "name": "Nova tarefa - cadastrar uma nova tarefa",
+    "description": "  Como uruário do site\n  Quero poder cadastrar uma nova tarefa\n  De modo que possa organizar o andamento de cada uma",
+    "line": 6,
+    "tags": [
+      {
+        "name": "@web",
+        "line": 4
+      },
+      {
+        "name": "@nova_tarefa",
+        "line": 5
+      }
+    ],
+    "comments": [
+      {
+        "value": "# encoding: utf-8",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "nova-tarefa---cadastrar-uma-nova-tarefa;validar-cadastro-de-uma-nova-tarefa",
+        "keyword": "Cenário",
+        "name": "Validar cadastro de uma nova tarefa",
+        "description": "",
+        "line": 14,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@web",
+            "line": 4
+          },
+          {
+            "name": "@nova_tarefa",
+            "line": 5
+          },
+          {
+            "name": "@#francllin_rios",
+            "line": 11
+          },
+          {
+            "name": "@%cadastrar",
+            "line": 12
+          },
+          {
+            "name": "@validar_novo_tarefa",
+            "line": 13
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.33.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.33.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 162650000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "acessar a tela home principal",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/nova_tarefa_step.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22619000
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "preencher o texto Ir ao mercado",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/nova_tarefa_step.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 148735000
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "validar a apresentação do card com sucesso",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/nova_tarefa_step.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 70532000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.33.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 87945000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "features/gherkins/remover_nova_tarefa.feature",
+    "id": "nova-tarefa---remover-uma-nova-tarefa",
+    "keyword": "Funcionalidade",
+    "name": "Nova tarefa - remover uma nova tarefa",
+    "description": "  Como uruário do site\n  Quero poder remover uma nova tarefa\n  De modo que possa organizar o andamento de cada uma",
+    "line": 6,
+    "tags": [
+      {
+        "name": "@web",
+        "line": 4
+      },
+      {
+        "name": "@remover_nova_tarefa",
+        "line": 5
+      }
+    ],
+    "comments": [
+      {
+        "value": "# encoding: utf-8",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "nova-tarefa---remover-uma-nova-tarefa;validar-remover-uma-tarefa",
+        "keyword": "Cenário",
+        "name": "Validar remover uma tarefa",
+        "description": "",
+        "line": 15,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@web",
+            "line": 4
+          },
+          {
+            "name": "@remover_nova_tarefa",
+            "line": 5
+          },
+          {
+            "name": "@#francllin_rios",
+            "line": 11
+          },
+          {
+            "name": "@%cadastrar",
+            "line": 12
+          },
+          {
+            "name": "@validar_remover_novo_tarefa",
+            "line": 13
+          },
+          {
+            "name": "@add_nova_tarefa",
+            "line": 14
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.33.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.33.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 76000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 110438000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "acessar a tela home principal",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/nova_tarefa_step.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 201684000
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "clicar na lixeira para remover a tarefa",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/remover_nova_tarefa_step.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 129606000
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "validar que a tarefa foi removida com sucesso",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/remover_nova_tarefa_step.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 199041000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.33.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 74791000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
