@@ -1,4 +1,4 @@
-# cypress-cucumber-structure
+# cypress-cucumber
 <h2>Estrutra de projeto utilizando Cypress com Cucumber</h2>
 
 ### Ou se prefir utilizando Node.js instalado
